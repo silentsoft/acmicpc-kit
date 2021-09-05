@@ -1,6 +1,6 @@
 # Acmicpc Kit
 
-![KitVersion](https://img.shields.io/badge/kit_version-v1.0.0-blue.svg)
+![KitVersion](https://img.shields.io/badge/kit_version-v1.1.0-blue.svg)
 [![Hits](https://hits.sh/github.com/silentsoft/acmicpc-kit.svg)](https://hits.sh)
 
 > Let's practice algorithms with Acmicpc Kit !
@@ -15,6 +15,10 @@
   - Creating a new problem with a specific template
     ```
     $ ./mvnw -N acmicpc:create -Dproblem=1234 -Dtemplate=specific
+    ```
+  - Creating a problem for specific site
+    ```
+    $ ./mvnw -N acmicpc:create -Dproblem=two-sum -Dsite=leetcode.com
     ```
   - Revalidating project
     ```
@@ -44,7 +48,22 @@ If you want to create a new template then please follow these steps.
   1. Edit `template` property in `pom.xml`.
      ```xml
      <properties>
-       <template>new-template-dir-name</template>
+       <template>new-template-dir-name</template> <!-- e.g. 'java' -->
+     </properties>
+     ```
+
+### How to define a new template for specific site
+This kit provides two site specific templates which is **acmicpc.net** and **leetcode.com**.
+
+If you want to create a new template for new site then please follow these steps.
+
+  1. Create a new directory like `site-domain/template-name` under the `templates` directory.
+  1. Fill in the directory with your template files.
+  1. Edit `site` and `template` properties in `pom.xml`.
+     ```xml
+     <properties>
+       <site>new-site-dir-name</site> <!-- e.g. 'leetcode.com' -->
+       <template>new-template-dir-name</template> <!-- e.g. 'java' -->
      </properties>
      ```
 
@@ -53,7 +72,7 @@ If you want to create a new template then please follow these steps.
   > Of course you can. Just create a new template directory under the `templates` and edit `template` property to template directory name in `pom.xml`.
 
 - **I'm using another site(s) instead of acmicpc.net to solve algorithm problems. Can I use this program?**
-  > Of course you can. There are no restrictions on the use of this program. And you can edit the template. It's up to you.
+  > Of course you can. There are no restrictions on the use of this program. And you can edit the template. If you are using multiple sites then you can set `site` property. It's up to you.
 
 - I just created a problem project but where is it ?
   > It is created in the `problems` directory.

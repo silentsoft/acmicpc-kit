@@ -15,19 +15,6 @@
     <artifactId>problem</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.junit.platform</groupId>
-            <artifactId>junit-platform-launcher</artifactId>
-            <version>1.7.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.7.2</version>
-        </dependency>
-    </dependencies>
-
     <build>
         <sourceDirectory>${project.basedir}</sourceDirectory>
         <resources>

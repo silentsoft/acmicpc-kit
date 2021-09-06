@@ -1,3 +1,8 @@
+# 1.1.1 (6 Sep 2021)
+
+## Enhancements
+- Add JUnit dependency.
+
 # 1.1.0 (5 Sep 2021)
 
 ## New Features

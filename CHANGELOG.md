@@ -1,3 +1,9 @@
+# 1.1.2 (8 Sep 2021)
+
+## Enhancements
+- Update `leetcode.com` code template.
+- Add stopwatch dependency.
+
 # 1.1.1 (6 Sep 2021)
 
 ## Enhancements

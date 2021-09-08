@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.silentsoft</groupId>
     <artifactId>acmicpc-kit-parent</artifactId>
-    <version>1.1.1</version>
+    <version>1.1.2</version>
   </parent>
   <groupId>org.silentsoft</groupId>
   <artifactId>acmicpc-kit</artifactId>

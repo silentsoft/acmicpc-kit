@@ -1,7 +1,7 @@
 # Acmicpc Kit
 
 ![KitVersion](https://img.shields.io/badge/kit_version-v1.1.2-blue.svg)
-[![Hits](https://hits.sh/github.com/silentsoft/acmicpc-kit.svg)](https://hits.sh)
+[![Hits](https://hits.sh/github.com/silentsoft/acmicpc-kit.svg)](https://hits.sh/github.com/silentsoft/acmicpc-kit/)
 
 > Let's practice algorithms with Acmicpc Kit !
 
